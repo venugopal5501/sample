@@ -1,6 +1,6 @@
 <template>
- 
-  <venuGopal message="Welcome to digital software"/>
+  
+  <venuGopal message="Welcome to digital software"></venuGopal>
 </template>
 
 <script>
@@ -8,10 +8,11 @@
 import venuGopal from './components/HelloWorld.vue'
 
 
+
 export default{
   name : 'App',
   components: {
-    venuGopal
+    venuGopal,
   }
 }
 </script>
